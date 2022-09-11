@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" class="diriction">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>TodoApp</title>
+</head>
+<body>
+    <div class="container">
+<!-- header -->
+        <div class="header">
+            <header>
+                <div class="h1">Javascrip Todo App</div>
+                <div class="imgs">
+                    <span class="erth">
+                        <i class="fa-solid fa-earth-africa"></i>
+                    </span>
+                    <span class="moon">
+                        <i class="fa-solid fa-moon"></i>
+                    </span>
+                </div>
+            </header>
+        </div>
+<!-- header -->
+
+<!-- form -->
+        <div class="form">
+            <div class="form-input">
+                <form id="Myform" action="">
+                    <input class="input" type="text" placeholder="enter todo...">
+                    <div class="submit">
+                        <button>Add Todo</button>
+                    </div>
+                </form>
+
+                <div class="filter">
+                    
+                    <!-- selectTag -->
+                    <div class="select-tag">
+                        <div class="select-btn">
+                            <button>Filter</button>
+                        </div>
+
+                        <ul class="options">
+                            <li class="option">ALL</li>
+                            <li class="option">Complete</li>
+                            <li class="option">Not Complete</li>
+                        </ul>
+                    
+                    </div>
+                    <!-- selectTag -->
+                    
+
+                    
+                    <!-- Count -->
+                    <div id="todos">
+                        <p>Todos <span class="count">0</span></p>
+                    </div>
+                    <!-- Count -->
+                </div>
+
+            </div>
+        </div>
+<!-- form -->
+
+<!-- Todos -->
+        <div class="Todos">
+            <ul class="Lis"></ul>
+        </div>
+<!-- Todos -->
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
